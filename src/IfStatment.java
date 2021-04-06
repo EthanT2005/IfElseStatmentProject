@@ -79,7 +79,7 @@ public class IfStatment {
 
                 }else {
 
-                    System.out.println("This is not a valid number! Please enter a number 1 - 5");
+                    System.err.println("This is not a valid number! Please enter a number 1 - 5");
 
                     run = true;
 
@@ -88,7 +88,7 @@ public class IfStatment {
 
 
             }catch(InputMismatchException e) {
-                System.err.println("That is an invalid input! Please try again");
+                System.err.println("That is an invalid input! Please enter a number 1-5!");
 
                 run = true;
 
